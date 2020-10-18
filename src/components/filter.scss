@@ -1,0 +1,37 @@
+.filter {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    margin-bottom: 25px;
+
+    h2{
+        text-align: center;
+    }
+
+    .field {
+        display: flex;
+        padding: .5em;
+
+        label {
+            padding: .5em 1em .5em 0;
+            flex: 1;
+        }
+        .input  {
+           flex: 2;
+           padding: .5em;
+            &::placeholder {
+                font-size: 20px; 
+            }
+        }
+        span{
+            flex: 2;
+        }
+
+    }
+    
+
+}
